@@ -56,6 +56,7 @@ $rslt = $mysqli->query($selectQuery);
             margin-top:5px;
 			height:100%;
 			min-height: 100%;
+			background-color: #FFFFFF;
         }
 		
 		.fill{
@@ -98,6 +99,15 @@ $rslt = $mysqli->query($selectQuery);
 		}
 		#rsvpoptionyes, #rsvpoptionno{
 			margin-left: 20px;
+		}
+		#vector{
+			/*background-image: url('assets/img/vector_floral_white.png');
+			background-repeat: no-repeat;*/
+			position: fixed;
+			bottom: 0px;
+			margin: 0px;
+			left: 0px;
+			width: 50%;
 		}
 		
         
@@ -198,5 +208,8 @@ $rslt = $mysqli->query($selectQuery);
             </div>
             </form>
         </div>
+		<div class="span12" id="vector">
+			<img src="assets/img/vector_floral_white.png" height="30%" width="30%"/>
+		</div>
     </div>
 </body>
