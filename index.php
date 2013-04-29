@@ -1,5 +1,6 @@
 <?php
-$msg = null;
+setcookie("raghu","Hello",time()+3600,"/","raghu.homersvp");
+/*$msg = null;
 require_once('config.php');
 if(isset($_POST['cmdSend'])){
 	$firstName = mysql_real_escape_string(trim($_POST['inpFirstName']));
@@ -20,7 +21,7 @@ if(isset($_POST['cmdSend'])){
 }
 
 $selectQuery = "SELECT * FROM rsvp";
-$rslt = $mysqli->query($selectQuery);
+$rslt = $mysqli->query($selectQuery);*/
 	
 
 ?>
